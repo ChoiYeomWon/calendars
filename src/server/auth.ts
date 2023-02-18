@@ -5,6 +5,7 @@ import {
   type DefaultSession,
 } from "next-auth";
 import { PrismaAdapter } from "@next-auth/prisma-adapter";
+import DiscordProvider from "next-auth/providers/discord";
 import { prisma } from "./db";
 
 /**
